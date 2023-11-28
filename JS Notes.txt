@@ -1,0 +1,15 @@
+******************JavaScript Notes*********************
+Lecture:5
+Variables:-
+-variables are container to store. 
+-var:to declare variable which is changable.
+note: but in ES-6 to new thing came instead of var-
+-const & -let.
+-const: means constante, which can not change.
+-How to set names of variables?
+start with digit,underscore or dollar sign only.
+-Reserved words in js.
+-' '  and " " both can be use in string variable.
+
+Lecture-6
+Operators:-
