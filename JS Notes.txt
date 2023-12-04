@@ -1,7 +1,7 @@
 ******************JavaScript Notes*********************
 Lecture:5
 Variables:-
--variables are container to store. 
+-variables are container to store data.
 -var:to declare variable which is changable.
 note: but in ES-6 to new thing came instead of var-
 -const & -let.
@@ -9,7 +9,43 @@ note: but in ES-6 to new thing came instead of var-
 -How to set names of variables?
 start with digit,underscore or dollar sign only.
 -Reserved words in js.
--' '  and " " both can be use in string variable.
+-' ' and " " both can be use in string variable.
 
 Lecture-6
-Operators:-
+Operators:-    
+note: x= x=2 same as x +=2
+note: math works in programming as real world mathemetics(base on BODMAS rule).
+ 
+Lecture-7
+Data Types:- 
+note: there are many types of data types in JS.
+note:undefiend,Object & array is also a data type in JS.
+note: undefiend:when we creat a variable and do not assign any value.
+note: Object Syntax-
+  let man{name:"tom",age:50};
+note: typeof operator.
+note: template lettral concept:-'${x}' 
+    -it does not work in " " or ' ' it works only in tilt (tilt sign is:- ` ` )
+let x="hello" is correct.
+let x='hell"o' is correct.
+let x="hel/"lo" is correct.
+
+Lecture-8
+Comparison and Logical Oparators:-
+- == equal to(yahaa data type nai dekha jata hai)
+- === equal value and equal type (yahaa data type dekha jata hai)
+- != not equal
+- !== not equl value or not equal type(yahaa data type bhi compare kiya jata hai).  
+note: and all as java Oparators.
+
+Lecture-9
+Conditions:-
+- if-else
+- if-else-if-else
+- nested-if
+- turnarry Oparators-  let option = isLogigedin == 1 ? "Logout" : "Login";
+                                // condition              true        false
+                            document.write(option);
+ 
+ Lecture-10:Switch in JS
+ -
