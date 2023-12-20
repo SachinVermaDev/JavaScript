@@ -12,30 +12,30 @@ start with digit,underscore or dollar sign only.
 -' ' and " " both can be use in string variable.
 
 Lecture-6
-Operators:-    
+Operators:-
 note: x= x=2 same as x +=2
 note: math works in programming as real world mathemetics(base on BODMAS rule).
- 
+
 Lecture-7
-Data Types:- 
+Data Types:-
 note: there are many types of data types in JS.
 note:undefiend,Object & array is also a data type in JS.
 note: undefiend:when we creat a variable and do not assign any value.
 note: Object Syntax-
-  let man{name:"tom",age:50};
+let man{name:"tom",age:50};
 note: typeof operator.
-note: template lettral concept:-'${x}' 
-    -it does not work in " " or ' ' it works only in tilt (tilt sign is:- ` ` )
+note: template lettral concept:-'${x}'
+-it does not work in " " or ' ' it works only in tilt (tilt sign is:- ` ` )
 let x="hello" is correct.
 let x='hell"o' is correct.
-let x="hel/"lo" is correct.
+let x="hel/"lo is correct.
 
 Lecture-8
 Comparison and Logical Oparators:-
 - == equal to(yahaa data type nai dekha jata hai)
 - === equal value and equal type (yahaa data type dekha jata hai)
 - != not equal
-- !== not equl value or not equal type(yahaa data type bhi compare kiya jata hai).  
+- !== not equl value or not equal type(yahaa data type bhi compare kiya jata hai).
 note: and all as java Oparators.
 
 Lecture-9
@@ -43,9 +43,73 @@ Conditions:-
 - if-else
 - if-else-if-else
 - nested-if
-- turnarry Oparators-  let option = isLogigedin == 1 ? "Logout" : "Login";
-                                // condition              true        false
-                            document.write(option);
- 
- Lecture-10:Switch in JS
- -
+- turnarry Oparators- let option = isLogigedin == 1 ? "Logout" : "Login";
+// condition true false
+document.write(option)                                                    ;
+
+Lecture-10:Switch in JS
+-Default:
+
+Lecture-11:Loop
+-while
+-do while
+-for
+etc
+
+Lecture-12:Break, Continue and Nested Loop
+-note: ham loop ko name bhi de sakte hain.
+
+Lecture-13: Alert, Prompt and Confirm
+-These three Function's are used to interact users.
+
+Lecture-13:Data Type Conversion
+-typeof
+-NaN
+-Three Function's we have:
+1.String()
+2.Number()
+3.Boolean()
+
+Lecture-14:String Manipulation
+-`` is called back-tic
+-template lateral concept
+-special character's: \t \\ \n \"
+-to know length of text: variable.length
+-JS is case sensitive.
+-Pre-defined Function's for String-Manupulation:
+variable1.concat(variable2)
+substr(parameter1,parameter2)
+substring(parameter1, parameter2)
+indexOf(parameter)
+indexOf(parameter1, parameter2)                  ;
+lastIndexof()                                    ;
+trim()
+trimStart()
+trimEnd()
+toUpperCase()
+toLowerCase()
+replace(parameter1,parameter2)
+includes(parameter1)
+
+Lecture-16: array
+eg.1:- let students=["Sachin", "Akshay", "Vijay"];
+eg.2:- let students=new Array("Sachin", "Akshay", "Vijay");
+       console.log(students[index number ]);
+       or
+       console.log(students);
+Lecture-17:Operations on Array       
+array.push("one more element name")--to add new element in array in last.
+array.unshift("one more element name")--in last.
+array.pop("delete last element in array")
+array.shift("delete element in array from begining")
+array.splice(parameter1,parameter2)--to remove elements from between in the array
+array.length=o;  or array=[]--to make array empty 
+array.indexOf()
+Array.isArray(variableName)
+variable.split(parameter)-- we can break text into words
+variable.join(parameter)--to join words into text
+
+
+note:String basically an array of character's
+
+

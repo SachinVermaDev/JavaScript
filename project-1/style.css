@@ -1,0 +1,21 @@
+*{
+    margin: 0;        
+    padding: 0;
+    box-sizing: border-box;
+}
+body .one,.two,.three,.four{
+    height: 50px;
+    width: 20%;    
+}
+.one{
+    background-color: green;
+}
+.two{
+    background-color: red;
+}
+.three{
+    background-color: black;
+}
+.four{
+    background-color: yellow;
+}
