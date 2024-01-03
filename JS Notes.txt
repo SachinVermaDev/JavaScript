@@ -94,22 +94,198 @@ includes(parameter1)
 Lecture-16: array
 eg.1:- let students=["Sachin", "Akshay", "Vijay"];
 eg.2:- let students=new Array("Sachin", "Akshay", "Vijay");
-       console.log(students[index number ]);
-       or
-       console.log(students);
-Lecture-17:Operations on Array       
+console.log(students[index number ])                                              ;
+or
+console.log(students)                                                             ;
+Lecture-17:Operations on Array
 array.push("one more element name")--to add new element in array in last.
-array.unshift("one more element name")--in last.
+array.un-shift("one more element name")--in last.
 array.pop("delete last element in array")
 array.shift("delete element in array from begining")
 array.splice(parameter1,parameter2)--to remove elements from between in the array
-array.length=o;  or array=[]--to make array empty 
+array.length=o                                                                    ; or array=[]--to make array empty
 array.indexOf()
 Array.isArray(variableName)
 variable.split(parameter)-- we can break text into words
 variable.join(parameter)--to join words into text
-
-
+we can add two or more than two arrays (using .concat())
+Multi-di-mentional Array:
 note:String basically an array of character's
 
+Lecture-18:Functions
+Two types of functions-1.pre-defined 2. user-defiened function
+
+Lecture-19:Parameters and Arguments
+
+Lecture-20:The Arguments Object
+
+Lecture-21:Return in Function
+
+Lecture-22:Global variable vs Local variable
+
+Lecture-23:Anonymous Function
+when we do not declare any name for function.
+when we declare a variable instead of giving function name
+it is also called function expression.
+why we use it-
+setTimeout(FunctionName, Time)
+
+Lecture-24:Immediately invoked function
+when we create an Anonymous Function and at that point of time we
+invoke that function is called Immediately invoked Function.
+bassically we use these things to make our code efficient.
+also to reduce conflict of code.
+
+Lecture-25:Object in JavaScript
+1.should have property
+2.should have any action/Function
+
+Lecture-26:Methods in Object
+we can define methods with defferent ways
+
+Lecture-27: 'this' keyword in java
+
+Lecture-29: Math Object
+Math Object have many functions-
+.round(parameter)
+.ceil(parameter)
+.floor(parameter)
+.trunc(parameter)
+.pow(parameter)
+.sqrt(parameter)
+.min(parameter)
+.max(parameter)
+
+Lecture-30: Random number
+Math.random()
+
+Lecture-31: Date Object
+it has many functions
+.getTime()
+.getFullYear()
+.getMonth()
+.getDate()
+.getHours()
+.getMinutes()
+.getSeconds()
+.getDay()
+
+.setSeconds()
+note: .set___() .get___() in blank space we can write the name of Date object methods
+
+How to compare dates?
+
+Lecture-32: "new" keyword
+
+Lecture-33: Property getters and setters
+Re-Understand it.
+
+Lecture-34: Object constructor function
+Re-Understand it.
+
+Lecture-34: Object Prototype
+
+Lecture-35: Nested object
+
+Lecture-36: Hoisting
+
+***********Basic Complete************
+
+Lecture-38: Document Object Model(DOM)
+-the DOM is an API for manipulating HTML and XML document. (add, remove, and modify parts of the document/HTML)
+-when a web page is loaded, the browser creates a Document Object Model of the page
+-Note: In this DOM tree, the document is the root node or object.
+-with the object model, JavaScript gets all the power it needs to create dynamic HTML:
+JS can change all the HTML elements in the page.
+JS can change all the HTML attributes in the page.
+JS can change all the CSS styles in the page.
+JS can remove existing HTML elements and attributes.
+JS can add new HTML elements and attributes.
+JS can react new HTML events in the page.
+NOTE: in the DOM, all HTML elements are defined as objects. so it will
+have both property and methods
+-the document object represents your web pages
+-if you want to access any element in an HTML page, you always start with accessing the document object.
+NOTE: in the DOM , all HTML element are defined as objects. so it will have both property and methods
+-the document object represents your web page
+-if you want to access any elements in an HTML page, you always starts with accessing the document object.
+
+Lecture-39: select an element by "ID"
+let xyz=document.getElementById("abcId");
+
+Lecture-40: select an element by "Class Name"
+let xyz=getElementsByClassName("Class-Name");
+note:using it we can select multiple element.
+
+Lecture-41: select an element by "Tag Name"
+let xyz=getElementByTagName("Tag-Name");
+
+Lecture-42: QuerySelector() and QuerySelectorAll()
+
+Lecture-43: Traversing elements
+also we can select parent using parentSelector
+also we can select child element using childSelector
+let xyz=elm.children                                                                    ;
+also we can select siblings elements using: previousElementSiblings, nextElementSibling
+
+Lecture-44: innerHTML
+using it we can do two thing-
+1-change all the html inside the element.
+2-can fetch all the html.
+
+Lecture-45: Create and Append element
+let x=document.createTextNode("xyz");
+variable.appendChild(x)               ;
+
+Lecture-46: Insert Before
+
+Lecture-47: Remove Child element
+
+Lecture-48: Clone Element
+
+Lecture-49: Replace Element
+
+Lecture-50: Insert AdjacentHTML
+
+Lecture-51: Change attribute
+
+Lecture-52: Inline styles
+
+Lecture-53: Get computed CSS
+
+Lecture-54: CSS Classes
+
+Lecture-55: Width and Height of an Element
+
+Lecture-56: DOM Events
+DOM events are actions that occur as a result
+of the user action or as result of state change
+of the elements of a DOM tree.
+Example of HTML events:-
+-When a user clicks the mouse
+-When a web page has loaded
+-When an image has been loaded
+-When the mouse moves over an element
+-When an input field is changed
+-When an HTML form is changed
+-When an HTML form is submitted
+-When a user strokes a key
+
+Lecture-57: Remove EventListener
+
+Lecture-58: Page Load Events
+DOMContentLoaded:-the browser fully loaded HTML and
+completed building the DOM tree. However, it hasn't
+loaded external resources like stylesheets and images. in
+this event, you can start selecting DOM nodes or
+initialize the interface.
+load:-the browser fully loaded the HTML and also external resources
+like images and stylesheets.
+When you leave the page, the following events fire in sequence:
+
+Lecture-59: Mouse Events
+
+Lecture-60: Key Down Event 
+
+Lecture-61: Scroll Events
 
