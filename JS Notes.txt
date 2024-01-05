@@ -289,3 +289,92 @@ Lecture-60: Key Down Event
 
 Lecture-61: Scroll Events
 
+Lecture-62: Input Events
+
+Lecture-63: Event Bubbling and Event Capturing
+
+Lecture-64: Prevent Default
+
+Lecture-65: Browser Object Model(BOM)
+
+Lecture-66: Window
+
+Lecture-67: Time out and Time Interval
+
+Lecture-68: Location Object
+
+Lecture-69: Navigator Object
+
+Lecture-70: Screen Object
+
+<!--Re-Study-->
+Lecture-71: Temperature Converter(Project-1)
+Lecture-72: Word Counter(Project-2)
+Lecture-73: Background Changer(Project-3)
+Lecture-74: Sticky Menu(Project-4)
+Lecture-75: Form Validation(Project-5)
+Lecture-76: Image Slider(Project-6)
+Lecture-77: Stopwatch(Project-7)
+
+<!--Re-Start:Advanced JS-->
+Lecture-78: ECMAScript
+
+Lecture-79: ES6- Let and Const   
+ 
+Lecture-80: ES6- Default Parameters
+
+Lecture-81: ES6- Rest Parameters
+
+Lecture-82: ES6- Spread Operators
+
+Lecture-83: ES6- for...of
+
+Lecture-84: ES6- Template Literals
+
+Lecture-85: ES6- Array Destructing
+
+Lecture-86: ES6- Object Destructuring
+
+Lecture-87: ES6- Modules
+
+Lecture-88: ES6- Object Oriented programming
+Understand Object Oriented Programming in real lastIndexof
+Three important words to Understand
+1. Object
+2. Class
+3. Inheritance  
+
+in this world every thing is an object (Living things and non living things)
+Example: Sachin (man), Honda city (car)
+Every object has 2 things:
+1.Features or Properties
+2.Actions performed by or Performed on it
+Sachin(man)--->
+1.Features or Properties:- full name, height, weight, age
+2.Actions:- walk ,eat ,sleep
+Honda city(car)--->
+1.Features or Properties:- name, color, model, Background
+2.Actions:- drive, repair, fuel, filling
+Inheritance:-
+
+Lecture-89: ES6 Object Oriented Programming
+understand OOP in programming 
+(procedural vs object oriented)
+-in OOP Concept we group function and variable in a Block Called Class
+-This is not the Exact Syntax
+-Four pillars of Object Oriented Programming
+(Important for interview)
+1.Encapsulation:- means wrapping up data and member function(Method) 
+together into a single unit i.e. class.
+2.Abstraction:- Abstraction is the process of showing only essential/necessary information
+features of an entity/object to the outside world and hide the other irrelevant
+. For example to open your TV we only have a power button, it is 
+not required to understand how infra-red waves are getting generated in TV 
+remote control.
+3.Inheritance:- it allows a class(subclass) to acquire the properties and
+behavior of another class(super-class). it helps to reuse, customize and enhance the existing code.
+SO it helps to write a code accurately and reduce the development time.
+4.Polymorphism:- So Polymorphism means "many forms" . A subclass can define its own unique
+behavior and still share the same functionalities or behavior of its parent/base class.
+
+Lecture-90: OOP before ES6
