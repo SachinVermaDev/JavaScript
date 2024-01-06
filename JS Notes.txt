@@ -379,4 +379,29 @@ behavior and still share the same functionalities or behavior of its parent/base
 
 Lecture-90: OOP's before ES6
 
- 
+Lecture-91: Prototype and Inheritance
+
+Lecture-92: Object and Inheritance
+
+Lecture-93: Arrow Function
+
+Lecture-94: CallBack Function
+
+Lecture-95: Map Function
+
+Lecture-96: Filter Function
+
+Lecture-97: Cookies Function
+
+Lecture-98: Web Storage (Local storage and Session storage)
+
+Lecture-99: JSON
+
+Lecture-100: JSON file
+
+Lecture-101: Parse JSON
+
+Lecture-102: JSON Stringify
+
+Lecture-103: Project: LightBox
+

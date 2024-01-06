@@ -1,0 +1,74 @@
+Programming languages ka kaam ek bridge ki tarah hota hai jiska use human-readable instructions se computer-readable
+ instructions mein convert karne ke liye hota hai. Yeh steps ke roop mein hota hai:
+
+1. **Code Likhein:**
+   Programmer apne computer program ko ek programming language mein likhta hai, jaise ki C++, Python, ya Java. 
+   Yeh language aasan hoti hai samajhne ke liye, aur programmers ko flexibility deti hai.
+
+2. **Compile ya Interpret Karein:**
+   Programming language ke code ko computer-readable format mein convert karne ke liye do tareeqe hote hain:
+   - **Compile:** Some languages, like C++ or Java, use a compiler to convert the entire code into machine code before 
+   it is executed. Compiled code is often faster but needs a separate compilation step before running.
+   - **Interpret:** Other languages, like Python or JavaScript, use an interpreter. The interpreter reads 
+   the code line by line and converts it into machine code on the fly. This makes development faster but can be slower in execution.
+
+3. **Machine Code Generate Ho:**
+   Jo bhi method use ho, akhir mein ek machine-readable code generate hota hai. Yeh code computer hardware ke level par samajh sakta hai.
+
+4. **Execution:**
+   Ab computer machine code ko execute karta hai. Har instruction hardware level par chalti hai, jisse computer desired task ko 
+   perform karta hai.
+
+Jab aap kisi programming language mein code likhte hain, aap essentially computer ko keh rahe hain ki wo kis tarah ka task kare. 
+Programming language ka use isliye hota hai taki human-readable instructions ko machine-readable form mein convert karke computer ko
+ samajhaya ja sake. Is process ko samajhne mein, 
+aapko programming languages ke working principles, compilers, interpreters, aur machine code ka basic understanding hona chahiye.
+
+
+---------------> What is the deference between 'Compile' and 'interpret' terms
+Compiler aur interpreter, dono programming languages ke code ko machine-readable format mein convert karne mein use hote hain,
+ lekin unmein kuch mukhya antar hain:
+
+**Compiler:**
+
+1. **Execution Process:**
+   - **Compile-Time Execution:** Compiler code ko compile karta hai, jise ek executable file (machine code) banata hai.
+    Execution ke liye separate step hota hai.
+   - **Run-Time Execution:** Compiled code ko execute karne ke liye separate runtime environment ki zarurat hoti hai.
+
+2. **Output:**
+   - **Executable File:** Compiler ek complete executable file generate karta hai, jise aap bina source code ke bhi run kar sakte hain.
+
+3. **Speed:**
+   - **Faster Execution:** Ek baar code compile ho gaya, toh execution generally faster hoti hai kyunki code pehle se machine code mein 
+   convert ho chuka hota hai.
+
+4. **Debugging:**
+   - **Debugging Complex:** Debugging compile languages mein thoda complex ho sakta hai, kyunki errors ko code likhne ke waqt hi 
+   identify karna hota hai.
+
+5. **Examples:**
+   - C, C++, Java (partially compiled), Rust, etc.
+
+**Interpreter:**
+
+1. **Execution Process:**
+   - **On-the-Fly Execution:** Interpreter code ko line by line padhkar immediate execution karta hai. Separate compilation step nahi hoti.
+
+2. **Output:**
+   - **No Executable File:** Interpreter ek line execute karta hai, lekin koi alag executable file generate nahi hota. 
+   Har baar code execute karne ke liye interpreter ki zarurat hoti hai.
+
+3. **Speed:**
+   - **Slower Execution:** Generally, interpreted languages ki execution compiled languages se thodi slow hoti hai,
+    kyunki code ko runtime par convert karna padta hai.
+
+4. **Debugging:**
+   - **Easier Debugging:** Debugging interpreted languages mein asaan hota hai, kyunki errors runtime par bhi identify ho sakte hain.
+
+5. **Examples:**
+   - Python, JavaScript, Ruby, PHP, etc.
+
+In summary, compiler ek complete program ko pehle se machine code mein convert karta hai, jabki interpreter code ko line by line padhkar 
+on-the-fly execute karta hai. Dono ke apne advantages aur disadvantages hote hain, aur koi bhi specific use case ke liye ek ya doosre ka 
+chayan kiya ja sakta hai.
