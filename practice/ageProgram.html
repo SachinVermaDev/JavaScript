@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>hiii</h1>
+
+    <form onsubmit="myFunction(); return false;">
+        <h1>voting program</h1>
+        <p>Please Enter Your Age:</p>
+        <input type="text" id="ageId" placeholder="Daal na gandu apni age...">
+        <input type="submit" value="Submit">
+    </form>
+
+    <p id="result"></p>
+    <img id="image1" alt="" style="height: 100px; width: 100px; border-radius: 50%; display: none;">
+
+    <script>
+        function myFunction() {
+            let x = document.getElementById("ageId").value;
+            let resultElement = document.getElementById("result");
+            let imageElement = document.getElementById('image1');
+
+            if (x < 1) {
+                resultElement.innerHTML = "Gandmara Sudawa se number to dal";
+                imageElement.src = 'Images/bunting-wild-photography-6CRREj0PZL0-unsplash.jpg';
+                imageElement.style.display = 'block';
+            } else if (x < 18) {
+                resultElement.innerHTML = "Bhosdika bado to huija";
+                imageElement.src = 'Images/pawel-czerwinski-pSNM2lEOnTo-unsplash.jpg';
+                imageElement.style.display = 'block';
+            } else {
+                resultElement.innerHTML = "Badhiya aija dalde vote machine ki gand me";
+                // If you don't want to show any image for age >= 18, you can remove the next two lines
+                imageElement.src = '';
+                imageElement.style.display = 'none';
+            }
+        }
+    </script>
+
+</body>
+
+</html>

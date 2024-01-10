@@ -1,22 +1,24 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
 </head>
-<html>
 
 <body>
-    <p>Please input your age:</p>
-    <input type="text" id="age" value="18">
-    <button onclick="myFunction()">
-        Try it</button>
     <p id="demo"></p>
     <script>
-        function myFunction() {
-            let age = document.getElementById('age').value;
-            let voteable = (age < 18) ? "Too young" : " Old enough";
-            document.getElementById("demo").innerHTML = voteable + " to Vote.";
-        }        
+        const capitalCities = new Map([
+            ["Bharat", "verma"]
+        ]);
+        //Set Map Values
+        
+        capitalCities.set("USA", 101);
+
+        document.getElementById("demo").innerHTML = capitalCities.get("Bharat");
+
     </script>
 </body>
 
