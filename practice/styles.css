@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.animation-container {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    /* Text color */
+    overflow: hidden;
+}
+
+.doraemon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/Modi\ Ji.jpg');
+    /* Replace with actual image path */
+    background-size: cover;
+    z-index: -1;
+    animation: doraemonDance 2s infinite linear;
+}
+
+.animation-word {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(1em);
+    animation: showWord 1s forwards infinite;
+    /* Infinite text animation */
+}
+
+@keyframes showWord {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animation-word:nth-child(2) {
+    animation-delay: 1s;
+    /* Delay for the second word */
+}
+
+@keyframes doraemonDance {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
