@@ -1,0 +1,15 @@
+What is React JS?
+-JS Liabrary
+-Developed and Manged By Facebook
+-Used to create UI(Frontend)
+-Open Source
+
+Features of React JS 
+-JSX:JS+HTML
+-Performance
+-Simplicity
+-Virtual DOM
+-Components
+-One-way data binding
+
+How React Works ?
