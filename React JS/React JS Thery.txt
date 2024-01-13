@@ -1,10 +1,11 @@
-What is React JS?
+>>>>One
+--->What is React JS?
 -JS Liabrary
 -Developed and Manged By Facebook
 -Used to create UI(Frontend)
 -Open Source
 
-Features of React JS 
+--->Features of React JS
 -JSX:JS+HTML
 -Performance
 -Simplicity
@@ -12,4 +13,45 @@ Features of React JS
 -Components
 -One-way data binding
 
-How React Works ?
+--->How React Works ?
+
+--->Rendering DOM
+
+>>>>Two
+-->Environment Setup for React JS
+-Steps to Follow
+Step 1: Download Node JS and npm.
+Step 2: Install any text-editor(Installed already VS Code).
+Step 3: Using node js install the create-node-app-package.
+    Command-- install -g create-react-app
+    cmd-1. npm install
+Step-4: Create the app using create-react-app Command       
+    Command-- create-react-app myapp
+
+>>>>Three        
+-->Directory Structure of React app
+
+>>>>Four
+-->Work flow of React App 
+
+>>>>Five
+-->React Components
+What are React Components
+-Components are independent and reusable bits of Code
+-Components are JavaScript files
+-They serve the same purpose as JavaScript functions
+-But works in isolation and returns HTML via a rend function.
+Types of Components:
+1.Class Based
+2.Functional 
+
+>>>>06.
+-->Class based & Functional Components
+Class Based Components
+-States
+-Basically a class of ES6
+-which optionally receive's props 
+-based on props it revert back HTML(JSX).
+
+
+
